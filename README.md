@@ -59,3 +59,5 @@ The website remains usable without a trained checkpoint, but the backend then us
 Browser upload → FastAPI → image preprocessing → spatial and FFT amplitude/phase feature blocks → feature fusion → encoder/bottleneck attention/decoder with skip connections → residual RGB reconstruction → PNG response.
 
 The UI diagram is a conceptual architecture overview; the model implementation is the source of truth for the exact operations. Train on paired low-light/normal images and report validated metrics such as PSNR and SSIM before making research performance claims.
+
+# LumaFusionNet
